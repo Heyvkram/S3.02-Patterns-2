@@ -15,10 +15,6 @@ public class Pizza {
 
     @Override
     public String toString() {
-        return "Pizza{" +
-                "size='" + size + '\'' +
-                ", dough='" + dough + '\'' +
-                ", toppings=" + toppings +
-                '}';
+        return "Your pizza! " + size + " size, " + dough + " dough, " + "with delicious " + String.join(", ", toppings) + " toppings!";
     }
 }
